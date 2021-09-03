@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-    background(208, 213, 219);
+    //background(208, 213, 219);
     rect(100, 100, 20, 40);
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
