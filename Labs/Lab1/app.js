@@ -25,13 +25,12 @@ myCircles[1] = new Circle(900, 10, 100, [227, 0, 4]);
 
 
 function setup() {
-    //createCanvas(800,600);
+    createCanvas(800,600);
 }
 
 function draw() {
     background(208, 213, 219);
     rect(100, 100, 20, 40);
-
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
