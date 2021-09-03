@@ -17,8 +17,22 @@ class Circle {
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(50, 20, 16, [242, 249, 255]);
-raindrops[1] = new Circle(350, 20, 24, [0, 132, 255]);
+raindrops[0] = new Circle(50, 12, 18, [204, 231, 255]);
+raindrops[1] = new Circle(435, 8, 24, [204, 231, 255]);
+raindrops[2] = new Circle(74, 11, 19, [204, 231, 255]);
+raindrops[3] = new Circle(613, 3, 24, [204, 231, 255]);
+raindrops[4] = new Circle(50, 14, 16, [204, 231, 255]);
+raindrops[5] = new Circle(195, 10, 24, [204, 231, 255]);
+raindrops[6] = new Circle(750, 2, 19, [204, 231, 255]);
+raindrops[7] = new Circle(248, 9, 24, [204, 231, 255]);
+raindrops[8] = new Circle(649, 5, 17, [204, 231, 255]);
+raindrops[9] = new Circle(350, 15, 24, [204, 231, 255]);
+raindrops[10] = new Circle(54, 12, 16, [204, 231, 255]);
+raindrops[11] = new Circle(707, 4, 24, [204, 231, 255]);
+raindrops[12] = new Circle(20, 1, 18, [204, 231, 255]);
+raindrops[13] = new Circle(10, 7, 24, [204, 231, 255]);
+raindrops[14] = new Circle(136, 13, 17, [204, 231, 255]);
+raindrops[15] = new Circle(486, 6, 24, [204, 231, 255]);
 
 function setup() {
     createCanvas(800,600);
@@ -28,25 +42,22 @@ function draw() {
 
     background(208, 213, 219);
 
-//    raindrops[0].update();
-//    raindrops[1].update();
-
-
-n = 0;
-
-for(;;) {
-    
-    x = Math.floor(Math.random() * 800) + 1;
-    y = Math.floor(Math.random() * 15) + 1;
-    r = Math.floor(Math.random() * 9) + 16;
-    
-    raindrops[n] = new Circle(x, y, r, [204, 231, 255]);
-
-    console.log(raindrops[n]);
-    console.log(n);
-
-    n++;
-}
+    raindrops[0].update();
+    raindrops[1].update();
+    raindrops[2].update();
+    raindrops[3].update();
+    raindrops[4].update();
+    raindrops[5].update();
+    raindrops[6].update();
+    raindrops[7].update();
+    raindrops[8].update();
+    raindrops[9].update();
+    raindrops[10].update();
+    raindrops[11].update();
+    raindrops[12].update();
+    raindrops[13].update();
+    raindrops[14].update();
+    raindrops[15].update();
 
 
 }
