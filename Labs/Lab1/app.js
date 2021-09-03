@@ -17,31 +17,31 @@ class Circle {
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(553, 12, 18, [204, 231, 255]);
+raindrops[0] = new Circle(553, 12, 23, [204, 231, 255]);
 raindrops[1] = new Circle(435, 8, 24, [204, 231, 255]);
-raindrops[2] = new Circle(72, 11, 19, [204, 231, 255]);
-raindrops[3] = new Circle(613, 3, 24, [204, 231, 255]);
-raindrops[4] = new Circle(321, 14, 16, [204, 231, 255]);
+raindrops[2] = new Circle(72, 11, 21, [204, 231, 255]);
+raindrops[3] = new Circle(613, 3, 22, [204, 231, 255]);
+raindrops[4] = new Circle(321, 14, 25, [204, 231, 255]);
 raindrops[5] = new Circle(195, 10, 24, [204, 231, 255]);
-raindrops[6] = new Circle(750, 2, 19, [204, 231, 255]);
-raindrops[7] = new Circle(248, 9, 24, [204, 231, 255]);
-raindrops[8] = new Circle(649, 5, 17, [204, 231, 255]);
-raindrops[9] = new Circle(350, 15, 24, [204, 231, 255]);
-raindrops[10] = new Circle(794, 12, 16, [204, 231, 255]);
+raindrops[6] = new Circle(750, 2, 23, [204, 231, 255]);
+raindrops[7] = new Circle(248, 9, 21, [204, 231, 255]);
+raindrops[8] = new Circle(649, 5, 25, [204, 231, 255]);
+raindrops[9] = new Circle(350, 15, 22, [204, 231, 255]);
+raindrops[10] = new Circle(794, 12, 23, [204, 231, 255]);
 raindrops[11] = new Circle(707, 4, 24, [204, 231, 255]);
-raindrops[12] = new Circle(38, 1, 18, [204, 231, 255]);
+raindrops[12] = new Circle(38, 1, 21, [204, 231, 255]);
 raindrops[13] = new Circle(10, 7, 24, [204, 231, 255]);
-raindrops[14] = new Circle(136, 13, 17, [204, 231, 255]);
-raindrops[15] = new Circle(486, 6, 24, [204, 231, 255]);
-raindrops[16] = new Circle(773, 2, 19, [204, 231, 255]);
+raindrops[14] = new Circle(136, 13, 23, [204, 231, 255]);
+raindrops[15] = new Circle(486, 6, 22, [204, 231, 255]);
+raindrops[16] = new Circle(773, 2, 25, [204, 231, 255]);
 raindrops[17] = new Circle(102, 9, 24, [204, 231, 255]);
-raindrops[18] = new Circle(679, 5, 17, [204, 231, 255]);
-raindrops[19] = new Circle(405, 15, 24, [204, 231, 255]);
-raindrops[20] = new Circle(294, 12, 16, [204, 231, 255]);
-raindrops[21] = new Circle(479, 4, 24, [204, 231, 255]);
-raindrops[22] = new Circle(583, 1, 18, [204, 231, 255]);
-raindrops[23] = new Circle(510, 7, 24, [204, 231, 255]);
-raindrops[24] = new Circle(376, 13, 17, [204, 231, 255]);
+raindrops[18] = new Circle(679, 5, 22, [204, 231, 255]);
+raindrops[19] = new Circle(405, 15, 21, [204, 231, 255]);
+raindrops[20] = new Circle(294, 12, 25, [204, 231, 255]);
+raindrops[21] = new Circle(479, 4, 23, [204, 231, 255]);
+raindrops[22] = new Circle(583, 1, 25, [204, 231, 255]);
+raindrops[23] = new Circle(510, 7, 22, [204, 231, 255]);
+raindrops[24] = new Circle(376, 13, 21, [204, 231, 255]);
 
 
 
