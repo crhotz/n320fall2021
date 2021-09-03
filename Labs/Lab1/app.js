@@ -4,18 +4,20 @@ class Circle {
         this.y = cy;
         this.radius = radius;
         this.color = color;
+        this.speed = 1 + Math.random() * 5;
     }
 
         //encapsulating
         update() {
             this.y ++;
+            fill(this.color);
             circle(this.x, this.y, this.radius);
         }
 }
 
 var raindrops = [];
 raindrops[0] = new Circle(50, 20, 30, [242, 249, 255]);
-raindrops[1] = new Circle(350, 20, 30, [242, 249, 255]);
+raindrops[1] = new Circle(350, 20, 30, [0, 132, 255]);
 
 function setup() {
     createCanvas(800,600);
