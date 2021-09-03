@@ -36,7 +36,7 @@ function draw() {
     console.log(circtest);
 
     circle(30, 30, 20);
-    console.log(circle);
+    
     
     circtest.y ++;
     new Circle(circtest.x, circtest.y, circtest.radius);
@@ -51,4 +51,6 @@ function draw() {
     myCircles[0].update();
     myCircles[1].update();
     //console.log(myCircles[0].update());
+
+    circtest.update();
 }
