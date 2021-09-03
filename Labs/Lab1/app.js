@@ -31,6 +31,7 @@ function setup() {
 function draw() {
     background(208, 213, 219);
     rect(100, 100, 20, 40);
+    new Circle(200, 200, 30, [123, 45, 67]);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
