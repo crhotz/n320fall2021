@@ -22,7 +22,7 @@ class Circle {
 var myCircles = [];
 myCircles[0] = new Circle(100, 10, 100, [166, 214, 222]);
 myCircles[1] = new Circle(900, 10, 100, [227, 0, 4]);
-circtest = new Circle(200, 200, 30, [123, 45, 67]);
+circtest = new Circle(200, 200, 30, [23, 255, 67]);
 
 function setup() {
     createCanvas(800,600);
