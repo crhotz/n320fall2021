@@ -4,7 +4,7 @@ class Circle {
         this.y = cy;
         this.radius = radius;
         this.color = color;
-        this.speed = 23 + Math.random() * 18;
+        this.speed = 23 + Math.random() * 180;
     }
 
         //encapsulating
