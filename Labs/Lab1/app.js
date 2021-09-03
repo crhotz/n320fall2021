@@ -43,5 +43,5 @@ function draw() {
     //invoking the method
     myCircles[0].update();
     myCircles[1].update();
-
+    console.log(myCircles[0].update());
 }
