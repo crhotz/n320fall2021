@@ -32,3 +32,17 @@ function draw() {
     raindrops[1].update();
 
 }
+
+
+for(;; n = 0) {
+    
+    x = Math.floor(Math.random() * 800) + 1;
+    y = Math.floor(Math.random() * 15) + 1;
+    r = Math.floor(Math.random() * 9) + 16;
+    
+    raindrops[n] = new Circle(x, y, r, [204, 231, 255]);
+
+    console.log(raindrops[n]);
+
+    n++;
+}
