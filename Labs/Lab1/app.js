@@ -25,7 +25,7 @@ myCircles[1] = new Circle(900, 10, 100, [227, 0, 4]);
 circtest = new Circle(200, 200, 30, [23, 255, 67]);
 
 function setup() {
-    createCanvas(800,600);
+    //createCanvas(800,600);
 }
 
 function draw() {
