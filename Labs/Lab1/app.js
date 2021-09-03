@@ -30,6 +30,8 @@ function setup() {
 
 function draw() {
     background(208, 213, 219);
+    rect(100, 100, 20, 40);
+    console.log(bgijfcm);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
