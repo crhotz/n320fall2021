@@ -51,5 +51,6 @@ function draw() {
 //    myCircles[1].update();
     //console.log(myCircles[0].update());
 
+    circtest.update();
     console.log(circtest.update());
 }
