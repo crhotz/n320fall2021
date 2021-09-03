@@ -1,6 +1,3 @@
-
-let cx = 20;
-
 class Circle {
     constructor(cx, cy, radius, color) {
         this.x = cx;
@@ -8,6 +5,8 @@ class Circle {
         this.radius = radius;
         this.color = color;
     }
+
+
 }
 
 var raindrop = new Circle(50, 20, 30, [242, 249, 255]);
@@ -21,6 +20,6 @@ function draw() {
 
     background(208, 213, 219);
 
-    cx++;
-    circle(50, cx, 30);
+    raindrop.y ++;
+    circle(raindrop.x, raindrop.y, raindrop.radius);
 }
