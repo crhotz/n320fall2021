@@ -6,10 +6,14 @@ class Circle {
         this.color = color;
     }
 
-
+        //encapsulating
+        update() {
+            this.y ++;
+            circle(this.x, this.y, this.radius);
+        }
 }
 
-var raindrop = new Circle(50, 20, 30, [24, 24, 25]);
+var raindrop = new Circle(50, 20, 30, [242, 249, 255]);
 console.log(raindrop);
 
 function setup() {
@@ -20,6 +24,5 @@ function draw() {
 
     background(208, 213, 219);
 
-    raindrop.y ++;
-    circle(raindrop.x, raindrop.y, raindrop.radius);
+    raindrop.update();
 }
