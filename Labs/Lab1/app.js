@@ -43,7 +43,6 @@ raindrops[22] = new Circle(583, 1, 25, [204, 231, 255]);
 raindrops[23] = new Circle(510, 7, 22, [204, 231, 255]);
 raindrops[24] = new Circle(376, 13, 21, [204, 231, 255]);
 
-raindrops[25] = raindrops * -1;
 
 
 
@@ -55,31 +54,34 @@ function draw() {
 
     background(208, 213, 219);
 
-    raindrops[0].update();
-    raindrops[1].update();
-    raindrops[2].update();
-    raindrops[3].update();
-    raindrops[4].update();
-    raindrops[5].update();
-    raindrops[6].update();
-    raindrops[7].update();
-    raindrops[8].update();
-    raindrops[9].update();
-    raindrops[10].update();
-    raindrops[11].update();
-    raindrops[12].update();
-    raindrops[13].update();
-    raindrops[14].update();
-    raindrops[15].update();
-    raindrops[16].update();
-    raindrops[17].update();
-    raindrops[18].update();
-    raindrops[19].update();
-    raindrops[20].update();
-    raindrops[21].update();
-    raindrops[22].update();
-    raindrops[23].update();
-    raindrops[24].update();
+    for(i > 0, i = 1, i++) {
+        raindrops[0].update();
+        raindrops[1].update();
+        raindrops[2].update();
+        raindrops[3].update();
+        raindrops[4].update();
+        raindrops[5].update();
+        raindrops[6].update();
+        raindrops[7].update();
+        raindrops[8].update();
+        raindrops[9].update();
+        raindrops[10].update();
+        raindrops[11].update();
+        raindrops[12].update();
+        raindrops[13].update();
+        raindrops[14].update();
+        raindrops[15].update();
+        raindrops[16].update();
+        raindrops[17].update();
+        raindrops[18].update();
+        raindrops[19].update();
+        raindrops[20].update();
+        raindrops[21].update();
+        raindrops[22].update();
+        raindrops[23].update();
+        raindrops[24].update();
+    }
+    
 }
 
 
