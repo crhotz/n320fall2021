@@ -10,14 +10,14 @@ class Circle {
         //encapsulating
         update() {
             this.y = this.y + this.speed;
-            this.speed = this.speed + .1;
+            this.speed = this.speed + .15;
             fill(this.color);
             circle(this.x, this.y, this.radius);
         }
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(50, 20, 10, [242, 249, 255]);
+raindrops[0] = new Circle(50, 20, 20, [242, 249, 255]);
 raindrops[1] = new Circle(350, 20, 30, [0, 132, 255]);
 
 function setup() {
