@@ -25,11 +25,11 @@ myCircles[1] = new Circle(900, 10, 100, [227, 0, 4]);
 circtest = new Circle(200, 200, 30, [23, 255, 67]);
 
 function setup() {
-    //createCanvas(800,600);
+    createCanvas(800,600);
 }
 
 function draw() {
-    //background(208, 213, 219);
+    background(208, 213, 219);
     rect(100, 100, 20, 40);
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
