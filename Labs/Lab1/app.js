@@ -11,6 +11,7 @@ class Circle {
 }
 
 var raindrop = new Circle(50, 20, 30, [242, 249, 255]);
+console.log(raindrop);
 
 function setup() {
     createCanvas(800,600);
