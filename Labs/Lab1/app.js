@@ -4,7 +4,7 @@ class Circle {
         this.y = cy;
         this.radius = radius;
         this.color = color;
-        this.speed = 3 + Math.random() * 5;
+        this.speed = 3 + Math.random() * 6;
     }
 
         //encapsulating
@@ -17,8 +17,8 @@ class Circle {
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(50, 20, 15, [242, 249, 255]);
-raindrops[1] = new Circle(350, 20, 25, [0, 132, 255]);
+raindrops[0] = new Circle(50, 20, 17, [242, 249, 255]);
+raindrops[1] = new Circle(350, 20, 23, [0, 132, 255]);
 
 function setup() {
     createCanvas(800,600);
