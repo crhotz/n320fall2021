@@ -36,7 +36,7 @@ function draw() {
     console.log(circtest);
     
     circtest.y ++;
-    Circle(circtest.x, circtest.y, circtest.radius);
+    new Circle(circtest.x, circtest.y, circtest.radius);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
