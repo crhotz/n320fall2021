@@ -43,7 +43,7 @@ raindrops[22] = new Circle(583, 1, 25, [204, 231, 255]);
 raindrops[23] = new Circle(510, 7, 22, [204, 231, 255]);
 raindrops[24] = new Circle(376, 13, 21, [204, 231, 255]);
 
-raindrops[25] = raindrops[] * -1;
+raindrops[25] = raindrops * -1;
 
 
 
