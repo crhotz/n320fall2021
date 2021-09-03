@@ -17,7 +17,7 @@ class Circle {
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(50, 20, 30, [242, 249, 255]);
+raindrops[0] = new Circle(50, 20, 10, [242, 249, 255]);
 raindrops[1] = new Circle(350, 20, 30, [0, 132, 255]);
 
 function setup() {
