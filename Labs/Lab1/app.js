@@ -13,7 +13,7 @@ class Circle {
         this.y = this.y + this.speed;  //still in the class, keep vague/broad
         this.speed = this.speed + .1; //accelerates rain as it falls
         fill(this.color);
-        new Circle(this.x, this.y, this.radius);
+        Circle(this.x, this.y, this.radius);
     }
 }
 
@@ -22,7 +22,7 @@ class Circle {
 var myCircles = [];
 myCircles[0] = new Circle(100, 10, 100, [166, 214, 222]);
 myCircles[1] = new Circle(900, 10, 100, [227, 0, 4]);
-
+circtest = new Circle(200, 200, 30, [123, 45, 67]);
 
 function setup() {
     createCanvas(800,600);
@@ -31,7 +31,8 @@ function setup() {
 function draw() {
     background(208, 213, 219);
     rect(100, 100, 20, 40);
-    new Circle(200, 200, 30, [123, 45, 67]);
+    //new Circle(200, 200, 30, [123, 45, 67]);
+    console.log(circtest);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
