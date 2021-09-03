@@ -13,7 +13,7 @@ class Circle {
         this.y = this.y + this.speed;  //still in the class, keep vague/broad
         this.speed = this.speed + .1; //accelerates rain as it falls
         fill(this.color);
-        Circle(this.x, this.y, this.radius);
+        new Circle(this.x, this.y, this.radius);
     }
 }
 
