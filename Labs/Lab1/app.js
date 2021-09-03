@@ -9,7 +9,7 @@ class Circle {
 
 }
 
-var raindrop = new Circle(50, 20, 30, [242, 249, 255]);
+var raindrop = new Circle(50, 20, 30, [242, 249, 25]);
 console.log(raindrop);
 
 function setup() {
