@@ -28,13 +28,13 @@ function draw() {
 
     background(208, 213, 219);
 
-    raindrops[0].update();
-    raindrops[1].update();
-
-}
+//    raindrops[0].update();
+//    raindrops[1].update();
 
 
-for(;; n = 0) {
+n = 0;
+
+for(;;) {
     
     x = Math.floor(Math.random() * 800) + 1;
     y = Math.floor(Math.random() * 15) + 1;
@@ -46,3 +46,7 @@ for(;; n = 0) {
 
     n++;
 }
+
+}
+
+
