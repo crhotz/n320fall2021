@@ -10,7 +10,7 @@ class Circle {
         //encapsulating
         update() {
             this.y = this.y + this.speed;
-            this.speed = this.speed + .05;
+            this.speed = this.speed + .1;
             fill(this.color);
             circle(this.x, this.y, this.radius);
         }
