@@ -31,15 +31,13 @@ function setup() {
 
 function draw() {
     background(208, 213, 219);
-    rect(100, 100, 20, 40);
+    rect(100, 100, 20, 40, [10, 10, 230]);
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
 
     circle(30, 30, 20);
     
     
-    circtest.y ++;
-    new Circle(circtest.x, circtest.y, circtest.radius);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
