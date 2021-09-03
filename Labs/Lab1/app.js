@@ -43,6 +43,7 @@ for(;;) {
     raindrops[n] = new Circle(x, y, r, [204, 231, 255]);
 
     console.log(raindrops[n]);
+    console.log(n);
 
     n++;
 }
