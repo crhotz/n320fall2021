@@ -54,7 +54,7 @@ function draw() {
 
     background(208, 213, 219);
 
-    for(i > 0, i = 1, i++) {
+    for(let i = 1; i < 1000000; i++) {
         raindrops[0].update();
         raindrops[1].update();
         raindrops[2].update();
