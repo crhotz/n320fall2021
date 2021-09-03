@@ -4,12 +4,12 @@ class Circle {
         this.y = cy;
         this.radius = radius;
         this.color = color;
-        this.speed = 23 + Math.random() * 180;
+        this.speed = 1 + Math.random() * 5;
     }
 
         //encapsulating
         update() {
-            this.y ++;
+            this.y = this.y + this.speed;
             fill(this.color);
             circle(this.x, this.y, this.radius);
         }
