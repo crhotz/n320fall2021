@@ -14,6 +14,7 @@ class Circle {
         this.speed = this.speed + .1; //accelerates rain as it falls
         fill(this.color);
         new Circle(this.x, this.y, this.radius);
+        console.log("hiii");
     }
 }
 
@@ -33,6 +34,9 @@ function draw() {
     rect(100, 100, 20, 40);
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
+    
+    circtest.y ++;
+    Circle(circtest.x, circtest.y, circtest.radius);
 
 //    //uses myCircle.y to control other properties
 //    //object used to control stuff instead of singular variables
@@ -43,5 +47,5 @@ function draw() {
     //invoking the method
     myCircles[0].update();
     myCircles[1].update();
-    console.log(myCircles[0].update());
+    //console.log(myCircles[0].update());
 }
