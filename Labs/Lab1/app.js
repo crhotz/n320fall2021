@@ -21,7 +21,7 @@ class Circle {
 //circle objects in array
 var myCircles = [];
 myCircles[0] = new Circle(100, 10, 100, [166, 214, 222]);
-myCircles[1] = new Circle(300, 10, 100, [227, 137, 64]);
+myCircles[1] = new Circle(300, 10, 100, [227, 0, 4]);
 
 
 function setup() {
