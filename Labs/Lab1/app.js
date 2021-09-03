@@ -13,8 +13,9 @@ class Circle {
         }
 }
 
-var raindrop = new Circle(50, 20, 30, [242, 249, 255]);
-console.log(raindrop);
+var raindrops = [];
+raindrops[0] = new Circle(50, 20, 30, [242, 249, 255]);
+raindrops[1] = new Circle(350, 20, 30, [242, 249, 255]);
 
 function setup() {
     createCanvas(800,600);
@@ -24,5 +25,7 @@ function draw() {
 
     background(208, 213, 219);
 
-    raindrop.update();
+    raindrops[0].update();
+    raindrops[1].update();
+
 }
