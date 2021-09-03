@@ -36,7 +36,7 @@ function draw() {
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
 
-    circle(30, 30, 20);
+    circle(30, 30, 20, [45,235,3]);
     
     
 
@@ -51,5 +51,5 @@ function draw() {
     myCircles[1].update();
     //console.log(myCircles[0].update());
 
-    circtest.update();
+    console.log(circtest.update());
 }
