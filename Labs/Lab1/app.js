@@ -34,6 +34,9 @@ function draw() {
     rect(100, 100, 20, 40);
     //new Circle(200, 200, 30, [123, 45, 67]);
     console.log(circtest);
+
+    circle(30, 30, 20);
+    console.log(circle);
     
     circtest.y ++;
     new Circle(circtest.x, circtest.y, circtest.radius);
