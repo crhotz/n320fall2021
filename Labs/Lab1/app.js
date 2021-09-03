@@ -17,22 +17,24 @@ class Circle {
 }
 
 var raindrops = [];
-raindrops[0] = new Circle(50, 12, 18, [204, 231, 255]);
+raindrops[0] = new Circle(553, 12, 18, [204, 231, 255]);
 raindrops[1] = new Circle(435, 8, 24, [204, 231, 255]);
-raindrops[2] = new Circle(74, 11, 19, [204, 231, 255]);
+raindrops[2] = new Circle(72, 11, 19, [204, 231, 255]);
 raindrops[3] = new Circle(613, 3, 24, [204, 231, 255]);
-raindrops[4] = new Circle(50, 14, 16, [204, 231, 255]);
+raindrops[4] = new Circle(321, 14, 16, [204, 231, 255]);
 raindrops[5] = new Circle(195, 10, 24, [204, 231, 255]);
 raindrops[6] = new Circle(750, 2, 19, [204, 231, 255]);
 raindrops[7] = new Circle(248, 9, 24, [204, 231, 255]);
 raindrops[8] = new Circle(649, 5, 17, [204, 231, 255]);
 raindrops[9] = new Circle(350, 15, 24, [204, 231, 255]);
-raindrops[10] = new Circle(54, 12, 16, [204, 231, 255]);
+raindrops[10] = new Circle(794, 12, 16, [204, 231, 255]);
 raindrops[11] = new Circle(707, 4, 24, [204, 231, 255]);
-raindrops[12] = new Circle(20, 1, 18, [204, 231, 255]);
+raindrops[12] = new Circle(38, 1, 18, [204, 231, 255]);
 raindrops[13] = new Circle(10, 7, 24, [204, 231, 255]);
 raindrops[14] = new Circle(136, 13, 17, [204, 231, 255]);
 raindrops[15] = new Circle(486, 6, 24, [204, 231, 255]);
+
+
 
 function setup() {
     createCanvas(800,600);
