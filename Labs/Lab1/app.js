@@ -32,20 +32,22 @@ function draw() {
 //    raindrops[1].update();
 
 
+n = 0;
 
+for(;;) {
+    
+    x = Math.floor(Math.random() * 800) + 1;
+    y = Math.floor(Math.random() * 15) + 1;
+    r = Math.floor(Math.random() * 9) + 16;
+    
+    raindrops[n] = new Circle(x, y, r, [204, 231, 255]);
 
-function RDC(num) {
-    this.num = num;
+    console.log(raindrops[n]);
+    console.log(n);
+
+    n++;
 }
 
-function maker(num) {
-    var arr = [];
-    while (n >= 0) {
-        arr.push(new RDC(num));
-        num++;
-    }
-    return arr;
-}
 
 }
 
