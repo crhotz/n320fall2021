@@ -13,4 +13,32 @@ class Instrument {
     }
 }
 
-console.log("test");
+
+//concrete classes
+
+//woodwind class
+class Woodwind extends Instrument {
+    constructor() {
+        super();
+    }
+
+
+}
+
+//percussion class
+class Percussion extends Instrument {
+    constructor() {
+        super();
+    }
+
+    
+}
+
+//string class
+class String extends Instrument {
+    constructor() {
+        super();
+    }
+
+    
+}
