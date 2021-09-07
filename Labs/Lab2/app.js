@@ -9,6 +9,7 @@ class Instrument {
 
     //method for playing the instrument
     playing() {
+        console.log("test");
         console.log(this.family + this.play_verb + "at" + this.loudness);
     }
 }
