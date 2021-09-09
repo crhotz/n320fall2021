@@ -19,7 +19,7 @@ class Instrument {
 //woodwind class
 class Woodwind extends Instrument {
     constructor() {
-        super();
+        super(); //takes 3 arguments //encapsulate the 2
     }
 
 
