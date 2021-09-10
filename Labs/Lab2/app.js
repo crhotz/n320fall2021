@@ -18,12 +18,25 @@ class Instrument {
 
 //woodwind class
 class Woodwind extends Instrument {
-    constructor() {
+    constructor(loudness, family, play_verb) {
         super(); //takes 3 arguments //encapsulate the 2
+        this.family = "Woodwind";
+        this.play_verb = "blows";
+        this.loudness = loudness;
+        console.log(this.family + this.play_verb + "at" + this.loudness);
     }
 
 
 }
+
+class trout extends fish {
+    constructor(habitat, length, variety) {
+      super()
+      this.habitat = habitat
+      this.length = length
+      this.variety = variety
+    }
+  }
 
 //percussion class
 class Percussion extends Instrument {
