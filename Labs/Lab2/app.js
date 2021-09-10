@@ -23,11 +23,12 @@ class Woodwind extends Instrument {
         this.family = "Woodwind";
         this.play_verb = "blows";
         this.loudness = loudness;
-        console.log(this.family + this.play_verb + "at" + this.loudness);
     }
 
 
 }
+let flute = new Woodwind(6);
+console.log(flute);
 
 class trout extends fish {
     constructor(habitat, length, variety) {
