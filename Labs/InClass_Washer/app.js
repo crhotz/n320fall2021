@@ -45,7 +45,7 @@ class WashingMachine {
 
     //method for draw (draw image to screen w/ svg)
     draw() {
-        console.log(bedvnficmdxo);
+        console.log('bedvnficmdxo');
     }
 
 }
