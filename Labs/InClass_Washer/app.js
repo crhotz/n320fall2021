@@ -20,7 +20,7 @@ class WashingMachine {
     //constructor
     constructor() {
         //washing machine
-        let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rectangle");
         washEl.setAttribute("x", this.x);
         washEl.setAttribute("y", this.y);
         washEl.setAttribute("w", this.w);
