@@ -5,31 +5,29 @@ class WashingMachine {
 
     //properties for base color, frontCircle location, frontCircle radius,
         //front circleColor, w, h, dial position, dial r, dialColor
-        baseColor = [80,80,80];
+        baseColor = [100,100,100];
         frontCircle = { x: 100, y: 100 };
         frontCircle_radius = 50;
-        frontCircle_color = [70,70,70];
-        x = 100;
-        y = 100;
+        frontCircle_color = [80,80,80];
+        x = 0;
+        y = 0;
         w = 200;
         h = 200;
         dial = { x: 100, y: 100 };
         dial_radius = 10;
-        dial_color = [34, 79, 242];
+        dial_color = [34,79,242];
 
     //constructor
     constructor() {
         //washing machine
-        let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rectangle");
+        let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rect");
         washEl.setAttribute("x", this.x);
         washEl.setAttribute("y", this.y);
-        washEl.setAttribute("w", this.w);
-        washEl.setAttribute("h", this.h);
+        washEl.setAttribute("width", this.w);
+        washEl.setAttribute("height", this.h);
         washEl.setAttribute("fill", `rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         console.log(`rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         base.appendChild(washEl);
-
-        console.log(`rect(${this.x}, ${this.y}, ${this.w}, ${this.h})`);
 
         //frontCircle
         let frontCircleEl = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -49,12 +47,6 @@ class WashingMachine {
         console.log(`rgb(${this.dial_color[0]},${this.dial_color[1]},${this.dial_color[2]})`);
         base.appendChild(dialEl);
     }
-
-    //method for draw (draw image to screen w/ svg)
-    draw() {
-        console.log('bedvnficmdxo');
-    }
-
 }
 
 new WashingMachine();
