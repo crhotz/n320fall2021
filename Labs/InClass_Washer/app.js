@@ -5,15 +5,15 @@ class WashingMachine {
 
     //properties for base color, frontCircle location, frontCircle radius,
         //front circleColor, w, h, dial position, dial r, dialColor
-        baseColor = [0,0,0];
+        baseColor = [80,80,80];
         frontCircle = { x: 0, y: 0 };
         frontCircle_radius = 10;
-        frontCircle_color = [0,0,0];
+        frontCircle_color = [70,70,70];
         w = 5;
         h = 5;
         dial = { x: 0, y: 0 };
         dial_radius = 1;
-        dial_color = [0,0,0];
+        dial_color = [34, 79, 242];
 
     //constructor
     constructor() {
@@ -31,6 +31,7 @@ class WashingMachine {
         frontCircleEl.setAttribute("r", this.frontCircle_radius);
         frontCircleEl.setAttribute("fill", `rgb(${this.frontCircle_color[0]},${this.frontCircle_color[1]},${this.frontCircle_color[2]})`);
         console.log(`rgb(${this.frontCircle_color[0]},${this.frontCircle_color[1]},${this.frontCircle_color[2]})`);
+        base.appendChild(frontCircleEl);
 
         //dial
         let dialEl = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -39,10 +40,13 @@ class WashingMachine {
         dialEl.setAttribute("r", this.dial_radius);
         dialEl.setAttribute("fill", `rgb(${this.dial_color[0]},${this.dial_color[1]},${this.dial_color[2]})`);
         console.log(`rgb(${this.dial_color[0]},${this.dial_color[1]},${this.dial_color[2]})`);
+        base.appendChild(dialEl);
     }
 
     //method for draw (draw image to screen w/ svg)
-    draw 
+    draw() {
+
+    }
 
 }
 
