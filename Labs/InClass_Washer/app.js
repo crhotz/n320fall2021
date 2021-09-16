@@ -9,8 +9,8 @@ class WashingMachine {
         frontCircle = { x: 0, y: 0 };
         frontCircle_radius = 10;
         frontCircle_color = [70,70,70];
-        w = 5;
-        h = 5;
+        w = 25;
+        h = 25;
         dial = { x: 0, y: 0 };
         dial_radius = 1;
         dial_color = [34, 79, 242];
