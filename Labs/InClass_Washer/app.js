@@ -29,7 +29,7 @@ class WashingMachine {
         console.log(`rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         base.appendChild(washEl);
 
-        console.log(`rect(this.rx, ry, w, h)`);
+        console.log(`rect(${this.rx}, ry, w, h)`);
 
         //frontCircle
         let frontCircleEl = document.createElementNS("http://www.w3.org/2000/svg", "circle");
