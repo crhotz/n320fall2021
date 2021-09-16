@@ -6,12 +6,12 @@ class WashingMachine {
     //properties for base color, frontCircle location, frontCircle radius,
         //front circleColor, w, h, dial position, dial r, dialColor
         baseColor = [80,80,80];
-        frontCircle = { x: 10, y: 10 };
+        frontCircle = { x: 100, y: 100 };
         frontCircle_radius = 50;
         frontCircle_color = [70,70,70];
         w = 100;
         h = 100;
-        dial = { x: 10, y: 10 };
+        dial = { x: 100, y: 100 };
         dial_radius = 10;
         dial_color = [34, 79, 242];
 
@@ -21,7 +21,8 @@ class WashingMachine {
         let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rect");
         washEl.setAttribute("fill", `rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         console.log(`rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
-        washEl.setAttribute("rect", 10, 10, this.w, this.h);
+        washEl.setAttribute(w = this.w);
+        washEl.setAttribute(h = this.h);
         base.appendChild(washEl);
 
         //frontCircle
