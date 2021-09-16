@@ -9,6 +9,8 @@ class WashingMachine {
         frontCircle = { x: 100, y: 100 };
         frontCircle_radius = 50;
         frontCircle_color = [70,70,70];
+        rx = 100;
+        ry = 100;
         w = 200;
         h = 200;
         dial = { x: 100, y: 100 };
@@ -19,15 +21,15 @@ class WashingMachine {
     constructor() {
         //washing machine
         let washEl = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-        washEl.setAttribute("x", 100);
-        washEl.setAttribute("y", 100);
+        washEl.setAttribute("rx", this.rx);
+        washEl.setAttribute("ry", this.ry);
         washEl.setAttribute("w", this.w);
         washEl.setAttribute("h", this.h);
         washEl.setAttribute("fill", `rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         console.log(`rgb(${this.baseColor[0]},${this.baseColor[1]},${this.baseColor[2]})`);
         base.appendChild(washEl);
 
-        console.log(x, y, w, h);
+        console.log(rx, ry, w, h);
 
         //frontCircle
         let frontCircleEl = document.createElementNS("http://www.w3.org/2000/svg", "circle");
