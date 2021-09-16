@@ -7,12 +7,12 @@ class WashingMachine {
         //front circleColor, w, h, dial position, dial r, dialColor
         baseColor = [80,80,80];
         frontCircle = { x: 10, y: 10 };
-        frontCircle_radius = 10;
+        frontCircle_radius = 50;
         frontCircle_color = [70,70,70];
-        w = 25;
-        h = 25;
-        dial = { x: 0, y: 0 };
-        dial_radius = 1;
+        w = 100;
+        h = 100;
+        dial = { x: 10, y: 10 };
+        dial_radius = 10;
         dial_color = [34, 79, 242];
 
     //constructor
