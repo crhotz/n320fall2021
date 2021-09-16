@@ -6,7 +6,7 @@ class WashingMachine {
     //properties for base color, frontCircle location, frontCircle radius,
         //front circleColor, w, h, dial position, dial r, dialColor
         baseColor = [80,80,80];
-        frontCircle = { x: 0, y: 0 };
+        frontCircle = { cx: 0, cy: 0 };
         frontCircle_radius = 10;
         frontCircle_color = [70,70,70];
         w = 25;
