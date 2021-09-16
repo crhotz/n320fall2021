@@ -50,7 +50,7 @@ class WashingMachine {
 
 }
 
-
+new WashingMachine();
 
 //class for washing machine mngmnt
     //base machine: WashingMachine instance (will be used for generation
