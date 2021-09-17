@@ -52,6 +52,10 @@ class WashingMachine {
 new WashingMachine();
 
 //class for washing machine mngmnt
+class wmManagement {
+    
+}
+
     //base machine: WashingMachine instance (will be used for generation
         //of new machines->replaced when user selects new one)
     //currentMachines: array of all washingMachines generated in this gen.
