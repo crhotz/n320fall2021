@@ -4,9 +4,10 @@ class Game {
     //class properties
     foundCircles = 0;
     totalcircles = 0;
-    searchColor = "99FF00";
-    normalColor = "7700AA";
+    searchColor = "#99FF00";
+    normalColor = "#7700AA";
     gameZone = document.getElementById("gameZone"); //ref to SVG element in index.html
+    foundBar = new FoundBar();
 
     constructor() {
         //make the circles
@@ -34,11 +35,39 @@ class Game {
                 event.target.style.fill = event.target.dataset.hiddenColor;
             })
 
+            newCirc.addEventListener("mouseout", (event) => {
+                event.target.style.fill = "#000";
+            })
+
+            newCirc.addEventListener("click", (event) => {
+                //if user clicked on something with the 'looking for' color
+                if(event.target.dataset.hiddenColor == this.searchColor) {
+                    event.target.remove();
+
+                    //store how many have been clicked on
+                    this.foundCircles++;
+
+                    //update found UI
+                    this.foundBar.setPercent(this.foundCircles / this.totalcircles);
+                }
+            })
+
             //add circle to the screen
             this.gameZone.appendChild(newCirc);
         }
     }
 
+}
+
+class FoundBar {
+    element = document.getElementById("foundBar");
+    maxSize = 130;
+    percent = 0;
+
+    setPercent(percent) {
+        this.percent = percent;
+        this.element.setAttribute("width", this.percent * this.maxSize);
+    }
 }
 
 let g = new Game();
