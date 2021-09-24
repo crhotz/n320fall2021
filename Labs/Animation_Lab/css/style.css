@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    grid-gap: 20px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgb(127, 212, 99);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.headerbox {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
